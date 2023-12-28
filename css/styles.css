@@ -562,6 +562,65 @@ img {
   fill: #f4f4fd;
 }
 
+/* ---------Footer input------- */
+
+.footer-text-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
+}
+
+.footer-subscribe-btn {
+  display: flex;
+  height: 40px;
+  min-width: 165px;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.subscribe-icon{
+ /* position:absolute; */
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+}
+
 /*---------- BACKDROP------------- */
 .backdrop {
   position: fixed;
@@ -710,8 +769,8 @@ img {
 
 .review-form-textarea {
   font-size: 12px;
-  line-height: 1,17;
-  letter-spacing: 0,04em;
+  line-height: 1, 17;
+  letter-spacing: 0, 04em;
   border-radius: 4px;
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
